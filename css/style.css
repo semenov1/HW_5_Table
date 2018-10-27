@@ -3,7 +3,7 @@ body {
     color: #484897;
     font-size: 16px;
     font-weight: 400;
-    line-height: 69px;
+   line-height: 69px;
     text-transform: uppercase;
     background-image: url(../img/Background.jpg);
     background-repeat: no-repeat;
@@ -18,7 +18,6 @@ body {
 
 table {
     width: auto;
-
 }
 
 p {
@@ -26,16 +25,16 @@ p {
     justify-content: center;
     align-items: center;
     background-color: #fafafa;
+     
 }
 
 .long_width {
     width: 310px;
-    height: 69px;
+
 }
 
 .short_width {
     width: 277px;
-    height: 69px;
 }
 
 
@@ -44,7 +43,7 @@ p {
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
-    line-height: 28px;
+
 }
 
 .head_ultimate {
@@ -52,7 +51,6 @@ p {
     color: #ffffff;
     font-size: 30px;
     font-weight: 700;
-    line-height: 28px;
 }
 
 .head_premium {
@@ -60,7 +58,7 @@ p {
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
-    line-height: 28px;
+
 }
 
 .background_two {
@@ -72,8 +70,8 @@ p {
 }
 
 td {
-    border-right: 3px solid #858585;
-    ;
+/*    border-right: 3px solid #858585;*/
+    
 }
 
 .image {
@@ -82,11 +80,37 @@ td {
 }
 
 .button {
+
     border-radius: 5px;
-    background-color: #484848;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
     width: 192px;
     height: 49px;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-transform: uppercase;
+}
 
+
+.button_1 {
+    border: none;
+    background-color: #484848;
+}
+
+.button_2 {
+    border: none;
+    background-color: #89c331;
+}
+
+.button_3 {
+    border: none;
+    background-color: #f04a56;
+}
+
+.button_4 {
+    border: none;
+/*    border-bottom: 3px solid #0e746f;*/
+    background-color: #20807c;
 }
